@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammed Al-Asad | Full-Stack Developer</title>
+    <meta name="description"
+        content="Professional Portfolio of Mohammed  Al-Asad, a Full-Stack Developer with a Front-End Focus based in Yemen.">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Scripts -->
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container nav-container">
+            <a href="#hero" class="logo">
+                <img src="images/logo.png" alt="Logo" class="logo-img">
+                <span>M. Al-Asad</span>
+            </a>
+
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Dark Mode">
+                <!-- Default Icon is Sun (since we start in Dark Mode and switch to Light means switching to sun?) 
+                     Actually standard logic: Icon shows what you switch TO. 
+                     If Dark (default), show Sun (to switch to light). 
+                     If Light, show Moon (to switch to dark). -->
+                ☀️
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="container hero-grid">
+                <div class="hero-text">
+                    <p class="hero-subtitle">Hello, I'm</p>
+                    <h1 class="hero-title">Mohammed Al-Asad</h1>
+                    <h2 style="font-size: 1.5rem; color: var(--text-secondary); margin-bottom: 2rem;">Full-Stack
+                        Developer <span class="text-accent">(Front-End Focus)</span></h2>
+
+                    <div class="hero-info contact-meta">
+                        <span>📍 Marib, Yemen (Open to Remote)</span>
+                        <span>📧 alasadmoh77@gmail.com</span>
+                        <span>📱+967 77-258-2463 (WhatsApp)</span>
+                    </div>
+
+                    <div style="margin-top: 2rem;">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-outline" style="margin-left: 1rem;">Contact Me</a>
+                    </div>
+                </div>
+
+                <div class="hero-image-wrapper">
+                    <div class="image-box">
+                        <img src="images/uploaded_profile.jpg" alt="Mohammed Al-Asad" class="profile-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Intro / About Section -->
+        <section id="about" class="section-padding">
+            <div class="container">
+                <div class="text-center" style="margin-bottom: 3rem;">
+                    <h2>About Me</h2>
+                </div>
+
+                <article style="max-width: 800px; margin: 0 auto; font-size: 1.1rem;">
+                    <p
+                        style="font-size: 1.25rem; color: var(--text-primary); margin-bottom: 2rem; border-left: 4px solid var(--primary-color); padding-left: 1rem;">
+                        I am a passionate Full-Stack Developer with a specialized focus on Front-End technologies,
+                        dedicated to crafting intuitive user experiences, writing clean code, and designing modern
+                        interfaces.
+                    </p>
+
+                    <p>
+                        With two years of experience in building seamless and modern user interfaces, I thrive on
+                        translating abstract ideas and creative designs into functional, user-friendly products. My
+                        approach builds on a strong attention to detail, code quality, and component reusability. I
+                        frequently engage in personal projects to sharpen my skills and demonstrate real-world
+                        application of my knowledge. I am a lifelong learner, constantly evolving my skillset to
+                        engineering scalable and maintainable solutions that stand the test of time.
+                    </p>
+
+                    <!-- Career Objective integrated smoothly -->
+                    <div
+                        style="margin-top: 2rem; background: var(--bg-surface); padding: 1.5rem; border-radius: var(--radius-md); border: 1px solid var(--border-color);">
+                        <strong style="color: var(--text-accent);">Career Objective:</strong>
+                        <span style="color: var(--text-secondary);"> I am seeking remote opportunities to develop
+                            high-quality interfaces, build scalable products, and deliver tangible impact for users
+                            globally.</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Skills & Interests -->
+        <section id="skills" class="section-padding" style="background-color: var(--bg-surface);">
+            <div class="container">
+                <div class="text-center">
+                    <h2>Skills & Technologies</h2>
+                </div>
+
+                <div class="skills-grid" style="margin-top: 3rem;">
+                    <!-- Front-End -->
+                    <div class="card skill-category">
+                        <h3>Front-End</h3>
+                        <div class="skill-list">
+                            <span class="chip">React</span>
+                            <span class="chip">JavaScript (ES6+)</span>
+                            <span class="chip">HTML5</span>
+                            <span class="chip">CSS3</span>
+                            <span class="chip">Responsive Design</span>
+                        </div>
+                    </div>
+
+                    <!-- Back-End -->
+                    <div class="card skill-category">
+                        <h3>Back-End</h3>
+                        <div class="skill-list">
+                            <span class="chip">Python</span>
+                            <span class="chip">Django</span>
+                            <span class="chip">RESTful APIs</span>
+                        </div>
+                    </div>
+
+                    <!-- Databases -->
+                    <div class="card skill-category">
+                        <h3>Databases</h3>
+                        <div class="skill-list">
+                            <span class="chip">MySQL</span>
+                            <span class="chip">PostgreSQL</span>
+                            <span class="chip">Oracle Database</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Interests Area -->
+                <div style="margin-top: 4rem;">
+                    <h3 class="text-center" style="margin-bottom: 1.5rem;">Focus Areas & Interests</h3>
+                    <div class="interests-grid">
+                        <span class="chip">Modern UI Development</span>
+                        <span class="chip">Component-Based Architecture</span>
+                        <span class="chip">Reusable Components</span>
+                        <span class="chip">API Integration</span>
+                        <span class="chip">UX Improvements</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education & Certifications -->
+        <section id="education" class="section-padding">
+            <div class="container">
+                <div class="text-center">
+                    <h2>Education & Certifications</h2>
+                </div>
+
+                <div style="max-width: 800px; margin: 3rem auto 0;">
+                    <div class="card">
+                        <div class="timeline-item" style="border:none; padding-left: 0;">
+                            <span class="timeline-date">2016 – 2025</span>
+                            <h3 class="timeline-title">Bachelor's Degree</h3>
+                            <div class="company-name">Saba Region University</div>
+                        </div>
+                        <div style="margin-top: 1rem; padding-top: 1rem; border-top: 1px solid var(--border-color);">
+                            <h4 style="font-size: 1.1rem; margin-bottom: 0.5rem;">Certifications & Courses</h4>
+                            <p>Udemy courses in AI Agents, Advanced Web Development, and Modern UI/UX Design.</p>
+                        </div>
+                        <div style="margin-top: 1rem; padding-top: 1rem; border-top: 1px solid var(--border-color);">
+                            <h4 style="font-size: 1.1rem; margin-bottom: 0.5rem;">Languages</h4>
+                            <div style="display:flex; gap: 1rem;">
+                                <span class="chip">Arabic (Native)</span>
+                                <span class="chip">English (Professional Proficiency)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section-padding" style="background-color: var(--bg-surface);">
+            <div class="container">
+                <div class="text-center">
+                    <h2>Featured Projects</h2>
+                </div>
+
+                <div class="projects-grid" style="margin-top: 3rem;">
+                    <!-- Project 1 -->
+                    <div class="card project-card">
+                        <h3>E-commerce UI Kit</h3>
+                        <p class="project-desc">A modern, responsive e-commerce interface designed with a focus on
+                            conversion and user experience. Features dynamic product filtering and cart management.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-primary" onclick="event.preventDefault()">Live Demo</a>
+                            <a href="#" class="btn btn-outline" onclick="event.preventDefault()">Source Code</a>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="card project-card">
+                        <h3>Admin Analytics Dashboard</h3>
+                        <p class="project-desc">A data visualization dashboard for tracking key performance indicators.
+                            Implements Chart.js for real-time data rendering and dark mode support.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-primary" onclick="event.preventDefault()">Live Demo</a>
+                            <a href="#" class="btn btn-outline" onclick="event.preventDefault()">Source Code</a>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="card project-card">
+                        <h3>API Integration Manager</h3>
+                        <p class="project-desc">A web application interacting with multiple REST endpoints to fetch,
+                            display, and manage user data efficiently using React and Axios.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-primary" onclick="event.preventDefault()">Live Demo</a>
+                            <a href="#" class="btn btn-outline" onclick="event.preventDefault()">Source Code</a>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="card project-card">
+                        <h3>Developer Portfolio Template</h3>
+                        <p class="project-desc">A high-performance, SEO-optimized personal portfolio template built with
+                            semantic HTML5 and vanilla JavaScript. Features accessible navigation.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-primary" onclick="event.preventDefault()">Live Demo</a>
+                            <a href="#" class="btn btn-outline" onclick="event.preventDefault()">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section-padding">
+            <div class="container">
+                <div class="text-center">
+                    <h2>Professional Experience</h2>
+                </div>
+
+                <div style="max-width: 800px; margin: 3rem auto 0;">
+
+                    <div class="timeline-item">
+                        <span class="timeline-date">2023 – Present</span>
+                        <h3 class="timeline-title">Freelance Full-Stack Developer</h3>
+                        <div class="company-name">Remote / Self-Employed</div>
+                        <ul>
+                            <li>
+                                <p>Developed and deployed responsive web applications for diverse clients using React
+                                    and Django.</p>
+                            </li>
+                            <li>
+                                <p>Optimized front-end performance, achieving a 30% reduction in load times via
+                                    code-splitting.</p>
+                            </li>
+                            <li>
+                                <p>Integrated third-party APIs (Stripe, Google Maps) to enhance application
+                                    functionality.</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="timeline-item">
+                        <span class="timeline-date">2021 – 2023</span>
+                        <h3 class="timeline-title">Front-End Developer</h3>
+                        <div class="company-name">Personal Projects & Collaborations</div>
+                        <ul>
+                            <li>
+                                <p>Designed and implemented a reusable component library, standardizing UI elements
+                                    across projects.</p>
+                            </li>
+                            <li>
+                                <p>Collaborated on translating UI/UX designs into pixel-perfect, semantic HTML/CSS code.
+                                </p>
+                            </li>
+                            <li>
+                                <p>Refactored legacy JavaScript codebases to ES6+, improving maintainability and
+                                    readability.</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="timeline-item">
+                        <span class="timeline-date">2019 – 2021</span>
+                        <h3 class="timeline-title">Web Development Lead</h3>
+                        <div class="company-name">University Projects</div>
+                        <ul>
+                            <li>
+                                <p>Led a team of students in developing a student management portal using Python and
+                                    MySQL.</p>
+                            </li>
+                            <li>
+                                <p>Implemented responsive design principles ensuring compatibility across mobile and
+                                    tablet devices.</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="section-padding" style="background-color: var(--bg-surface);">
+            <div class="container">
+                <div class="text-center">
+                    <h2>My Services</h2>
+                </div>
+
+                <div class="services-grid" style="margin-top: 3rem;">
+                    <div class="card service-card">
+                        <div class="service-icon">💻</div>
+                        <h3>Front-End Development</h3>
+                        <p>Building responsive, pixel-perfect websites with modern HTML, CSS, and React.</p>
+                    </div>
+
+                    <div class="card service-card">
+                        <div class="service-icon">⚡</div>
+                        <h3>Full-Stack Web Apps</h3>
+                        <p>End-to-end application development using React for UI and Django for the backend Logic.</p>
+                    </div>
+
+                    <div class="card service-card">
+                        <div class="service-icon">🔗</div>
+                        <h3>API Integration & UX</h3>
+                        <p>Seamlessly connecting services and optimizing user flows for better engagement.</p>
+                    </div>
+
+                    <div class="card service-card">
+                        <div class="service-icon">🚀</div>
+                        <h3>UI Refactor & Performance</h3>
+                        <p>Modernizing existing interfaces and optimizing code for maximum speed and accessibility.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section-padding">
+            <div class="container">
+                <div class="text-center">
+                    <h2>Get In Touch</h2>
+                    <p style="margin: 0 auto 3rem;">Have a project in mind or want to discuss a remote opportunity? Send
+                        me a message.</p>
+                </div>
+
+                <div class="contact-container">
+                    <form action="#" method="POST" onsubmit="event.preventDefault(); alert('Message sent! (Demo)');">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" id="name" class="form-input" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" class="form-input" placeholder="your@email.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" rows="5" class="form-textarea" placeholder="How can I help you?"
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                    </form>
+
+                    <div style="display: flex; flex-direction: column; justify-content: center;">
+                        <h3>Connect with me</h3>
+                        <p>I'm currently available for freelance work and remote positions.</p>
+
+                        <div class="social-links">
+                            <!-- LinkedIn -->
+                            <a href="#" class="social-btn" aria-label="LinkedIn">
+                                <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                                    <path
+                                        d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                                </svg>
+                            </a>
+                            <!-- GitHub -->
+                            <a href="#" class="social-btn" aria-label="GitHub">
+                                <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                                </svg>
+                            </a>
+                            <!-- YouTube -->
+                            <a href="#" class="social-btn" aria-label="YouTube">
+                                <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                                    <path
+                                        d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z" />
+                                </svg>
+                            </a>
+                            <!-- Facebook -->
+                            <a href="#" class="social-btn" aria-label="Facebook">
+                                <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                                    <path
+                                        d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2025 Mohammed Al-Asad. All rights reserved.</p>
+            <a href="#" class="back-to-top" onclick="window.scrollTo(0,0); return false;">
+                Back to Top ↑
+            </a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
